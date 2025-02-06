@@ -24,6 +24,30 @@ body {
     border-bottom: 1px solid #e2e8f0;
 }
 
+.confidence-indicator {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.confidence-bar {
+  width: 192px;
+  height: 8px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #dc3545, #fd7e14, #ffc107, #28a745, #007bff);
+}
+
+.confidence-labels {
+  width: 192px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.confidence-labels span {
+  font-size: 12px;
+  color: #64748b;
+}
+
 .content-container {
     flex: 1;
     display: flex;
