@@ -1,379 +1,390 @@
 {
-  "metadata": {
-    "num_speakers": 1,
-    "languages": [
-      " it"
-    ],
-    "abstract": "Jim Cobb played the drums on the album recorded between May and December 1959, highlighting John Coltrane's meticulous attention to this project. In 1959, this album marked a significant breakthrough for Coltrane, initiating a remarkable journey that would last eight years.",
-    "entities": {
-      "people": {
-        "Coltrane": [
+  "stats": {
+    "file_name": "kiss_10",
+    "total_time": 898.0355410575867,
+    "total_segments": 1,
+    "successful_transcriptions": 1,
+    "failed_transcriptions": 0,
+    "completion_percentage": 100
+  },
+  "transcription": {
+    "metadata": {
+      "num_speakers": 1,
+      "abstract": "Jim Cobb played the drums on the album, which was recorded between May and December 1959, reflecting John Coltrane's meticulous attention to this project. In 1959, with this album, Coltrane embarked on a significant artistic journey that would continue for eight years.",
+      "entities": {
+        "people": {
+          "Coltrane": [
+            {
+              "start": 15.46,
+              "text": "Coltrane"
+            },
+            {
+              "start": 19.76,
+              "text": "Coltrane"
+            }
+          ],
+          "Jim Cobb": [
+            {
+              "start": 1.2,
+              "text": "Jim"
+            }
+          ]
+        },
+        "places": {},
+        "topics": {}
+      }
+    },
+    "segments": [
+      {
+        "start": 0,
+        "end": 28.62,
+        "type": "speaker",
+        "text": "La batteria viene suonata da Jim Cobb anche perché l'intero album venne registrato nell'arco dal maggio al dicembre del 1959 e questo è segno anche di una particolare attenzione che Coltrane diede a questa sua incisione. Nel 1959 Coltrane di fatto con quest'album spicca un grande volo che si concluderà solo 8 anni",
+        "speaker_id": "SPEAKER_00",
+        "segment_id": 0,
+        "language": "it",
+        "avg_confidence": 0.9719107491629464,
+        "words": [
           {
-            "start": 15.46,
-            "text": "Coltrane"
+            "end": 0.2,
+            "probability": 0.81640625,
+            "start": 0,
+            "word": "La"
           },
           {
-            "start": 19.76,
-            "text": "Coltrane"
-          }
-        ],
-        "Jim Cobb": [
+            "end": 0.54,
+            "probability": 0.98828125,
+            "start": 0.2,
+            "word": "batteria"
+          },
           {
+            "end": 0.62,
+            "probability": 0.98974609375,
+            "start": 0.54,
+            "word": "viene"
+          },
+          {
+            "end": 1.08,
+            "probability": 0.9988606770833334,
+            "start": 0.62,
+            "word": "suonata"
+          },
+          {
+            "end": 1.2,
+            "probability": 0.990234375,
+            "start": 1.08,
+            "word": "da"
+          },
+          {
+            "end": 1.38,
+            "probability": 0.9833984375,
             "start": 1.2,
-            "text": "Jim"
+            "word": "Jim"
+          },
+          {
+            "end": 1.82,
+            "probability": 0.99072265625,
+            "start": 1.38,
+            "word": "Cobb"
+          },
+          {
+            "end": 2.04,
+            "probability": 0.84375,
+            "start": 1.82,
+            "word": "anche"
+          },
+          {
+            "end": 2.4,
+            "probability": 0.94775390625,
+            "start": 2.04,
+            "word": "perché"
+          },
+          {
+            "end": 2.92,
+            "probability": 0.94189453125,
+            "start": 2.4,
+            "word": "l"
+          },
+          {
+            "end": 4,
+            "probability": 0.99951171875,
+            "start": 2.92,
+            "word": "'intero"
+          },
+          {
+            "end": 4.34,
+            "probability": 0.998046875,
+            "start": 4,
+            "word": "album"
+          },
+          {
+            "end": 5.44,
+            "probability": 0.9912109375,
+            "start": 4.34,
+            "word": "venne"
+          },
+          {
+            "end": 6.08,
+            "probability": 0.999267578125,
+            "start": 5.44,
+            "word": "registrato"
+          },
+          {
+            "end": 6.26,
+            "probability": 0.98388671875,
+            "start": 6.08,
+            "word": "nell"
+          },
+          {
+            "end": 6.96,
+            "probability": 0.9973958333333334,
+            "start": 6.26,
+            "word": "'arco"
+          },
+          {
+            "end": 7.5,
+            "probability": 0.98193359375,
+            "start": 6.96,
+            "word": "dal"
+          },
+          {
+            "end": 8.24,
+            "probability": 0.99560546875,
+            "start": 7.5,
+            "word": "maggio"
+          },
+          {
+            "end": 8.52,
+            "probability": 0.99267578125,
+            "start": 8.24,
+            "word": "al"
+          },
+          {
+            "end": 9.1,
+            "probability": 0.99951171875,
+            "start": 8.52,
+            "word": "dicembre"
+          },
+          {
+            "end": 9.22,
+            "probability": 0.98779296875,
+            "start": 9.1,
+            "word": "del"
+          },
+          {
+            "end": 9.84,
+            "probability": 0.9921875,
+            "start": 9.22,
+            "word": "1959"
+          },
+          {
+            "end": 11.06,
+            "probability": 0.90380859375,
+            "start": 10.56,
+            "word": "e"
+          },
+          {
+            "end": 12.32,
+            "probability": 0.99951171875,
+            "start": 11.06,
+            "word": "questo"
+          },
+          {
+            "end": 12.42,
+            "probability": 0.99658203125,
+            "start": 12.32,
+            "word": "è"
+          },
+          {
+            "end": 12.82,
+            "probability": 0.945068359375,
+            "start": 12.42,
+            "word": "segno"
+          },
+          {
+            "end": 13.08,
+            "probability": 0.990234375,
+            "start": 12.82,
+            "word": "anche"
+          },
+          {
+            "end": 13.6,
+            "probability": 0.99853515625,
+            "start": 13.08,
+            "word": "di"
+          },
+          {
+            "end": 14.16,
+            "probability": 0.998046875,
+            "start": 13.6,
+            "word": "una"
+          },
+          {
+            "end": 14.64,
+            "probability": 1,
+            "start": 14.16,
+            "word": "particolare"
+          },
+          {
+            "end": 15.34,
+            "probability": 0.9998372395833334,
+            "start": 14.64,
+            "word": "attenzione"
+          },
+          {
+            "end": 15.46,
+            "probability": 0.99609375,
+            "start": 15.34,
+            "word": "che"
+          },
+          {
+            "end": 15.94,
+            "probability": 0.998046875,
+            "start": 15.46,
+            "word": "Coltrane"
+          },
+          {
+            "end": 16.5,
+            "probability": 0.99609375,
+            "start": 15.94,
+            "word": "diede"
+          },
+          {
+            "end": 16.68,
+            "probability": 0.99560546875,
+            "start": 16.5,
+            "word": "a"
+          },
+          {
+            "end": 17.26,
+            "probability": 0.99951171875,
+            "start": 16.68,
+            "word": "questa"
+          },
+          {
+            "end": 17.54,
+            "probability": 0.9970703125,
+            "start": 17.26,
+            "word": "sua"
+          },
+          {
+            "end": 18.5,
+            "probability": 0.9996744791666666,
+            "start": 17.54,
+            "word": "incisione."
+          },
+          {
+            "end": 19.32,
+            "probability": 0.9990234375,
+            "start": 18.56,
+            "word": "Nel"
+          },
+          {
+            "end": 19.76,
+            "probability": 0.99755859375,
+            "start": 19.32,
+            "word": "1959"
+          },
+          {
+            "end": 22.92,
+            "probability": 0.9879557291666666,
+            "start": 19.76,
+            "word": "Coltrane"
+          },
+          {
+            "end": 23.16,
+            "probability": 0.8818359375,
+            "start": 22.92,
+            "word": "di"
+          },
+          {
+            "end": 23.46,
+            "probability": 0.99853515625,
+            "start": 23.16,
+            "word": "fatto"
+          },
+          {
+            "end": 23.68,
+            "probability": 0.99169921875,
+            "start": 23.46,
+            "word": "con"
+          },
+          {
+            "end": 23.96,
+            "probability": 0.97900390625,
+            "start": 23.68,
+            "word": "quest"
+          },
+          {
+            "end": 24.46,
+            "probability": 0.9939778645833334,
+            "start": 23.96,
+            "word": "'album"
+          },
+          {
+            "end": 25.38,
+            "probability": 0.998779296875,
+            "start": 24.46,
+            "word": "spicca"
+          },
+          {
+            "end": 25.48,
+            "probability": 0.9970703125,
+            "start": 25.38,
+            "word": "un"
+          },
+          {
+            "end": 25.8,
+            "probability": 0.9990234375,
+            "start": 25.48,
+            "word": "grande"
+          },
+          {
+            "end": 26.38,
+            "probability": 0.99951171875,
+            "start": 25.8,
+            "word": "volo"
+          },
+          {
+            "end": 26.46,
+            "probability": 0.99365234375,
+            "start": 26.38,
+            "word": "che"
+          },
+          {
+            "end": 26.58,
+            "probability": 0.99951171875,
+            "start": 26.46,
+            "word": "si"
+          },
+          {
+            "end": 27.12,
+            "probability": 0.9993489583333334,
+            "start": 26.58,
+            "word": "concluderà"
+          },
+          {
+            "end": 27.3,
+            "probability": 0.8583984375,
+            "start": 27.12,
+            "word": "solo"
+          },
+          {
+            "end": 28.32,
+            "probability": 0.5361328125,
+            "start": 27.3,
+            "word": "8"
+          },
+          {
+            "end": 28.62,
+            "probability": 0.9921875,
+            "start": 28.32,
+            "word": "anni"
           }
         ]
-      },
-      "places": {},
-      "topics": {}
-    }
+      }
+    ],
+    "plain-text": "La batteria viene suonata da Jim Cobb anche perché l'intero album venne registrato nell'arco dal maggio al dicembre del 1959 e questo è segno anche di una particolare attenzione che Coltrane diede a questa sua incisione. Nel 1959 Coltrane di fatto con quest'album spicca un grande volo che si concluderà solo 8 anni"
   },
-  "segments": [
-    {
-      "start": 0,
-      "end": 28.62,
-      "type": "speaker",
-      "text": "La batteria viene suonata da Jim Cobb anche perché l'intero album venne registrato nell'arco dal maggio al dicembre del 1959 e questo è segno anche di una particolare attenzione che Coltrane diede a questa sua incisione. Nel 1959 Coltrane di fatto con quest'album spicca un grande volo che si concluderà solo 8 anni",
-      "speaker_id": "SPEAKER_00",
-      "segment_id": 0,
-      "words": [
-        {
-          "end": 0.2,
-          "probability": 0.81640625,
-          "start": 0,
-          "word": "La"
-        },
-        {
-          "end": 0.54,
-          "probability": 0.98828125,
-          "start": 0.2,
-          "word": "batteria"
-        },
-        {
-          "end": 0.62,
-          "probability": 0.98974609375,
-          "start": 0.54,
-          "word": "viene"
-        },
-        {
-          "end": 1.08,
-          "probability": 0.9988606770833334,
-          "start": 0.62,
-          "word": "suonata"
-        },
-        {
-          "end": 1.2,
-          "probability": 0.990234375,
-          "start": 1.08,
-          "word": "da"
-        },
-        {
-          "end": 1.38,
-          "probability": 0.9833984375,
-          "start": 1.2,
-          "word": "Jim"
-        },
-        {
-          "end": 1.82,
-          "probability": 0.99072265625,
-          "start": 1.38,
-          "word": "Cobb"
-        },
-        {
-          "end": 2.04,
-          "probability": 0.84375,
-          "start": 1.82,
-          "word": "anche"
-        },
-        {
-          "end": 2.4,
-          "probability": 0.94775390625,
-          "start": 2.04,
-          "word": "perché"
-        },
-        {
-          "end": 2.92,
-          "probability": 0.94189453125,
-          "start": 2.4,
-          "word": "l"
-        },
-        {
-          "end": 4,
-          "probability": 0.99951171875,
-          "start": 2.92,
-          "word": "'intero"
-        },
-        {
-          "end": 4.34,
-          "probability": 0.998046875,
-          "start": 4,
-          "word": "album"
-        },
-        {
-          "end": 5.44,
-          "probability": 0.9912109375,
-          "start": 4.34,
-          "word": "venne"
-        },
-        {
-          "end": 6.08,
-          "probability": 0.999267578125,
-          "start": 5.44,
-          "word": "registrato"
-        },
-        {
-          "end": 6.26,
-          "probability": 0.98388671875,
-          "start": 6.08,
-          "word": "nell"
-        },
-        {
-          "end": 6.96,
-          "probability": 0.9973958333333334,
-          "start": 6.26,
-          "word": "'arco"
-        },
-        {
-          "end": 7.5,
-          "probability": 0.98193359375,
-          "start": 6.96,
-          "word": "dal"
-        },
-        {
-          "end": 8.24,
-          "probability": 0.99560546875,
-          "start": 7.5,
-          "word": "maggio"
-        },
-        {
-          "end": 8.52,
-          "probability": 0.99267578125,
-          "start": 8.24,
-          "word": "al"
-        },
-        {
-          "end": 9.1,
-          "probability": 0.99951171875,
-          "start": 8.52,
-          "word": "dicembre"
-        },
-        {
-          "end": 9.22,
-          "probability": 0.98779296875,
-          "start": 9.1,
-          "word": "del"
-        },
-        {
-          "end": 9.84,
-          "probability": 0.9921875,
-          "start": 9.22,
-          "word": "1959"
-        },
-        {
-          "end": 11.06,
-          "probability": 0.90380859375,
-          "start": 10.56,
-          "word": "e"
-        },
-        {
-          "end": 12.32,
-          "probability": 0.99951171875,
-          "start": 11.06,
-          "word": "questo"
-        },
-        {
-          "end": 12.42,
-          "probability": 0.99658203125,
-          "start": 12.32,
-          "word": "è"
-        },
-        {
-          "end": 12.82,
-          "probability": 0.945068359375,
-          "start": 12.42,
-          "word": "segno"
-        },
-        {
-          "end": 13.08,
-          "probability": 0.990234375,
-          "start": 12.82,
-          "word": "anche"
-        },
-        {
-          "end": 13.6,
-          "probability": 0.99853515625,
-          "start": 13.08,
-          "word": "di"
-        },
-        {
-          "end": 14.16,
-          "probability": 0.998046875,
-          "start": 13.6,
-          "word": "una"
-        },
-        {
-          "end": 14.64,
-          "probability": 1,
-          "start": 14.16,
-          "word": "particolare"
-        },
-        {
-          "end": 15.34,
-          "probability": 0.9998372395833334,
-          "start": 14.64,
-          "word": "attenzione"
-        },
-        {
-          "end": 15.46,
-          "probability": 0.99609375,
-          "start": 15.34,
-          "word": "che"
-        },
-        {
-          "end": 15.94,
-          "probability": 0.998046875,
-          "start": 15.46,
-          "word": "Coltrane"
-        },
-        {
-          "end": 16.5,
-          "probability": 0.99609375,
-          "start": 15.94,
-          "word": "diede"
-        },
-        {
-          "end": 16.68,
-          "probability": 0.99560546875,
-          "start": 16.5,
-          "word": "a"
-        },
-        {
-          "end": 17.26,
-          "probability": 0.99951171875,
-          "start": 16.68,
-          "word": "questa"
-        },
-        {
-          "end": 17.54,
-          "probability": 0.9970703125,
-          "start": 17.26,
-          "word": "sua"
-        },
-        {
-          "end": 18.5,
-          "probability": 0.9996744791666666,
-          "start": 17.54,
-          "word": "incisione."
-        },
-        {
-          "end": 19.32,
-          "probability": 0.9990234375,
-          "start": 18.56,
-          "word": "Nel"
-        },
-        {
-          "end": 19.76,
-          "probability": 0.99755859375,
-          "start": 19.32,
-          "word": "1959"
-        },
-        {
-          "end": 22.92,
-          "probability": 0.9879557291666666,
-          "start": 19.76,
-          "word": "Coltrane"
-        },
-        {
-          "end": 23.16,
-          "probability": 0.8818359375,
-          "start": 22.92,
-          "word": "di"
-        },
-        {
-          "end": 23.46,
-          "probability": 0.99853515625,
-          "start": 23.16,
-          "word": "fatto"
-        },
-        {
-          "end": 23.68,
-          "probability": 0.99169921875,
-          "start": 23.46,
-          "word": "con"
-        },
-        {
-          "end": 23.96,
-          "probability": 0.97900390625,
-          "start": 23.68,
-          "word": "quest"
-        },
-        {
-          "end": 24.46,
-          "probability": 0.9939778645833334,
-          "start": 23.96,
-          "word": "'album"
-        },
-        {
-          "end": 25.38,
-          "probability": 0.998779296875,
-          "start": 24.46,
-          "word": "spicca"
-        },
-        {
-          "end": 25.48,
-          "probability": 0.9970703125,
-          "start": 25.38,
-          "word": "un"
-        },
-        {
-          "end": 25.8,
-          "probability": 0.9990234375,
-          "start": 25.48,
-          "word": "grande"
-        },
-        {
-          "end": 26.38,
-          "probability": 0.99951171875,
-          "start": 25.8,
-          "word": "volo"
-        },
-        {
-          "end": 26.46,
-          "probability": 0.99365234375,
-          "start": 26.38,
-          "word": "che"
-        },
-        {
-          "end": 26.58,
-          "probability": 0.99951171875,
-          "start": 26.46,
-          "word": "si"
-        },
-        {
-          "end": 27.12,
-          "probability": 0.9993489583333334,
-          "start": 26.58,
-          "word": "concluderà"
-        },
-        {
-          "end": 27.3,
-          "probability": 0.8583984375,
-          "start": 27.12,
-          "word": "solo"
-        },
-        {
-          "end": 28.32,
-          "probability": 0.5361328125,
-          "start": 27.3,
-          "word": "8"
-        },
-        {
-          "end": 28.62,
-          "probability": 0.9921875,
-          "start": 28.32,
-          "word": "anni"
-        }
-      ]
-    }
-  ]
+  "format": "mp3"
 }
