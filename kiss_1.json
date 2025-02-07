@@ -807,7 +807,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 0,
         "language": "en",
-        "confidence": 0.8809360734987677,
+        "avg_confidence": 0.8809360734987677,
         "words": [
           {
             "end": 0.28,
@@ -2643,7 +2643,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 1,
         "language": "en",
-        "confidence": 0.9266653349905304,
+        "avg_confidence": 0.9266653349905304,
         "words": [
           {
             "end": 144.67000000000002,
@@ -2787,7 +2787,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 2,
         "language": "en",
-        "confidence": 0.9622024619094725,
+        "avg_confidence": 0.9622024619094725,
         "words": [
           {
             "end": 157.45000000000002,
@@ -4029,7 +4029,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 3,
         "language": "en",
-        "confidence": 0.9363677171172289,
+        "avg_confidence": 0.9363677171172289,
         "words": [
           {
             "end": 272.21000000000004,
@@ -4797,7 +4797,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 4,
         "language": "en",
-        "confidence": 0.9439712336033951,
+        "avg_confidence": 0.9439712336033951,
         "words": [
           {
             "end": 350.53999999999996,
@@ -5133,7 +5133,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 5,
         "language": "en",
-        "confidence": 0.9340024330900243,
+        "avg_confidence": 0.9340024330900243,
         "words": [
           {
             "end": 381.9,
@@ -5781,7 +5781,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 6,
         "language": "en",
-        "confidence": 0.9340024330900243,
+        "avg_confidence": 0.9340024330900243,
         "words": [
           {
             "end": 440.77,
@@ -5979,7 +5979,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 7,
         "language": "en",
-        "confidence": 0.9072481577212994,
+        "avg_confidence": 0.9072481577212994,
         "words": [
           {
             "end": 467.92999999999995,
@@ -6537,7 +6537,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 8,
         "language": "en",
-        "confidence": 0.9080667544633914,
+        "avg_confidence": 0.9080667544633914,
         "words": [
           {
             "end": 520.19,
@@ -6861,7 +6861,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 9,
         "language": "en",
-        "confidence": 0.9265304266237745,
+        "avg_confidence": 0.9265304266237745,
         "words": [
           {
             "end": 554.9300000000001,
@@ -7077,7 +7077,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 10,
         "language": "en",
-        "confidence": 0.9638133938029662,
+        "avg_confidence": 0.9638133938029662,
         "words": [
           {
             "end": 581.12,
@@ -7443,7 +7443,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 11,
         "language": "en",
-        "confidence": 0.9007292247953869,
+        "avg_confidence": 0.9007292247953869,
         "words": [
           {
             "end": 611.85,
@@ -7623,7 +7623,7 @@
         "speaker_id": "gap",
         "segment_id": 12,
         "language": "en",
-        "confidence": 0.379638671875,
+        "avg_confidence": 0.379638671875,
         "words": [
           {
             "end": 632.91,
@@ -7641,7 +7641,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 13,
         "language": "en",
-        "confidence": 0.9102333470394737,
+        "avg_confidence": 0.9102333470394737,
         "words": [
           {
             "end": 634.57,
@@ -7767,7 +7767,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 14,
         "language": "en",
-        "confidence": 0.9303466796875,
+        "avg_confidence": 0.9303466796875,
         "words": [
           {
             "end": 645.38,
@@ -7899,7 +7899,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 15,
         "language": "en",
-        "confidence": 0.9432046191939891,
+        "avg_confidence": 0.9432046191939891,
         "words": [
           {
             "end": 656.76,
@@ -8277,7 +8277,7 @@
         "speaker_id": "gap",
         "segment_id": 16,
         "language": "en",
-        "confidence": 0.80657958984375,
+        "avg_confidence": 0.80657958984375,
         "words": [
           {
             "end": 686.14,
@@ -8337,7 +8337,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 17,
         "language": "en",
-        "confidence": 0.82830810546875,
+        "avg_confidence": 0.82830810546875,
         "words": [
           {
             "end": 690.6,
@@ -8373,7 +8373,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 18,
         "language": "en",
-        "confidence": 0.9407874797952587,
+        "avg_confidence": 0.9407874797952587,
         "words": [
           {
             "end": 697.5,
@@ -8733,7 +8733,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 19,
         "language": "en",
-        "confidence": 0.9358019147600446,
+        "avg_confidence": 0.9358019147600446,
         "words": [
           {
             "end": 728.28,
@@ -9081,7 +9081,7 @@
         "speaker_id": "gap",
         "segment_id": 20,
         "language": "en",
-        "confidence": 0.9008650346235796,
+        "avg_confidence": 0.9008650346235796,
         "words": [
           {
             "end": 773.1800000000001,
@@ -9225,7 +9225,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 21,
         "language": "en",
-        "confidence": 0.9617705763432017,
+        "avg_confidence": 0.9617705763432017,
         "words": [
           {
             "end": 789.5999999999999,
@@ -9465,7 +9465,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 22,
         "language": "en",
-        "confidence": 0.909320068359375,
+        "avg_confidence": 0.909320068359375,
         "words": [
           {
             "end": 808.4599999999999,
@@ -9537,7 +9537,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 23,
         "language": "en",
-        "confidence": 0.927391267223038,
+        "avg_confidence": 0.927391267223038,
         "words": [
           {
             "end": 816.7,
@@ -10383,7 +10383,7 @@
         "speaker_id": "gap",
         "segment_id": 24,
         "language": "en",
-        "confidence": 0.8458030007102273,
+        "avg_confidence": 0.8458030007102273,
         "words": [
           {
             "end": 881.9799999999999,
@@ -10527,7 +10527,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 25,
         "language": "en",
-        "confidence": 0.9380739565248842,
+        "avg_confidence": 0.9380739565248842,
         "words": [
           {
             "end": 890.56,
@@ -11079,7 +11079,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 26,
         "language": "en",
-        "confidence": 0.9543185763888888,
+        "avg_confidence": 0.9543185763888888,
         "words": [
           {
             "end": 940.3699999999999,
@@ -11289,7 +11289,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 27,
         "language": "en",
-        "confidence": 0.9512586805555556,
+        "avg_confidence": 0.9512586805555556,
         "words": [
           {
             "end": 961.3199999999999,
@@ -11391,7 +11391,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 28,
         "language": "en",
-        "confidence": 0.9189025031195747,
+        "avg_confidence": 0.9189025031195747,
         "words": [
           {
             "end": 971.82,
@@ -11691,7 +11691,7 @@
         "speaker_id": "gap",
         "segment_id": 29,
         "language": "en",
-        "confidence": 0.9171697443181818,
+        "avg_confidence": 0.9171697443181818,
         "words": [
           {
             "end": 998.62,
@@ -11769,7 +11769,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 30,
         "language": "en",
-        "confidence": 0.9542191874186198,
+        "avg_confidence": 0.9542191874186198,
         "words": [
           {
             "end": 1003.95,
@@ -11985,7 +11985,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 31,
         "language": "en",
-        "confidence": 0.9542191874186198,
+        "avg_confidence": 0.9542191874186198,
         "words": [
           {
             "end": 1033.18,
@@ -12993,7 +12993,7 @@
         "speaker_id": "gap",
         "segment_id": 32,
         "language": "en",
-        "confidence": 0.81787109375,
+        "avg_confidence": 0.81787109375,
         "words": [
           {
             "end": 1117.8300000000002,
@@ -13023,7 +13023,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 33,
         "language": "en",
-        "confidence": 0.8880807976973685,
+        "avg_confidence": 0.8880807976973685,
         "words": [
           {
             "end": 1122.79,
@@ -13149,7 +13149,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 34,
         "language": "en",
-        "confidence": 0.945256710435492,
+        "avg_confidence": 0.945256710435492,
         "words": [
           {
             "end": 1136.11,
@@ -13659,7 +13659,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 35,
         "language": "en",
-        "confidence": 0.9183094562026505,
+        "avg_confidence": 0.9183094562026505,
         "words": [
           {
             "end": 1193.18,
@@ -14403,7 +14403,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 36,
         "language": "en",
-        "confidence": 0.9183094562026505,
+        "avg_confidence": 0.9183094562026505,
         "words": [
           {
             "end": 1263.95,
@@ -14841,7 +14841,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 37,
         "language": "en",
-        "confidence": 0.9251685727027155,
+        "avg_confidence": 0.9251685727027155,
         "words": [
           {
             "end": 1299.78,
@@ -15597,7 +15597,7 @@
         "speaker_id": "gap",
         "segment_id": 38,
         "language": "en",
-        "confidence": 0.424560546875,
+        "avg_confidence": 0.424560546875,
         "words": [
           {
             "end": 1366.24,
@@ -15615,7 +15615,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 39,
         "language": "en",
-        "confidence": 0.9063399048677642,
+        "avg_confidence": 0.9063399048677642,
         "words": [
           {
             "end": 1367.18,
@@ -18669,7 +18669,7 @@
         "speaker_id": "SPEAKER_05",
         "segment_id": 40,
         "language": "en",
-        "confidence": 0.9410400390625,
+        "avg_confidence": 0.9410400390625,
         "words": [
           {
             "end": 1645.93,
@@ -18909,7 +18909,7 @@
         "speaker_id": "SPEAKER_02",
         "segment_id": 41,
         "language": "en",
-        "confidence": 0.852843138548705,
+        "avg_confidence": 0.852843138548705,
         "words": [
           {
             "end": 1669.83,
@@ -19143,7 +19143,7 @@
         "speaker_id": "SPEAKER_02",
         "segment_id": 42,
         "language": "it",
-        "confidence": 0.942138671875,
+        "avg_confidence": 0.942138671875,
         "words": [
           {
             "end": 1704.63,
@@ -19161,7 +19161,7 @@
         "speaker_id": "gap",
         "segment_id": 43,
         "language": "en",
-        "confidence": 0.68896484375,
+        "avg_confidence": 0.68896484375,
         "words": [
           {
             "end": 1711.23,
@@ -19185,7 +19185,7 @@
         "speaker_id": "SPEAKER_04",
         "segment_id": 44,
         "language": "en",
-        "confidence": 0.83544921875,
+        "avg_confidence": 0.83544921875,
         "words": [
           {
             "end": 1714.01,
@@ -19209,7 +19209,7 @@
         "speaker_id": "SPEAKER_02",
         "segment_id": 45,
         "language": "en",
-        "confidence": 0.8810139973958333,
+        "avg_confidence": 0.8810139973958333,
         "words": [
           {
             "end": 1721.34,
@@ -19311,7 +19311,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 46,
         "language": "en",
-        "confidence": 0.8480932712554932,
+        "avg_confidence": 0.8480932712554932,
         "words": [
           {
             "end": 1736.56,
@@ -19587,7 +19587,7 @@
         "speaker_id": "SPEAKER_02",
         "segment_id": 47,
         "language": "en",
-        "confidence": 0.9021344866071429,
+        "avg_confidence": 0.9021344866071429,
         "words": [
           {
             "end": 1765.3799999999999,
@@ -19641,7 +19641,7 @@
         "speaker_id": "SPEAKER_05",
         "segment_id": 48,
         "language": "en",
-        "confidence": 0.9269865958921372,
+        "avg_confidence": 0.9269865958921372,
         "words": [
           {
             "end": 1790.59,
@@ -19839,7 +19839,7 @@
         "speaker_id": "gap",
         "segment_id": 49,
         "language": "sv",
-        "confidence": 0.416015625,
+        "avg_confidence": 0.416015625,
         "words": [
           {
             "end": 1813.81,
@@ -19857,7 +19857,7 @@
         "speaker_id": "SPEAKER_03",
         "segment_id": 50,
         "language": "it",
-        "confidence": 0.9707875877919823,
+        "avg_confidence": 0.9707875877919823,
         "words": [
           {
             "end": 1819.72,
@@ -20067,7 +20067,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 51,
         "language": "en",
-        "confidence": 0.929739287405303,
+        "avg_confidence": 0.929739287405303,
         "words": [
           {
             "end": 1847.29,
@@ -20277,7 +20277,7 @@
         "speaker_id": "SPEAKER_01",
         "segment_id": 52,
         "language": "en",
-        "confidence": 0.8775042909564394,
+        "avg_confidence": 0.8775042909564394,
         "words": [
           {
             "end": 1881.2399999999998,
@@ -20355,7 +20355,7 @@
         "speaker_id": "SPEAKER_04",
         "segment_id": 53,
         "language": "en",
-        "confidence": 0.71441650390625,
+        "avg_confidence": 0.71441650390625,
         "words": [
           {
             "end": 1889.5900000000001,
@@ -20391,7 +20391,7 @@
         "speaker_id": "SPEAKER_00",
         "segment_id": 54,
         "language": "en",
-        "confidence": 0.8807960792824074,
+        "avg_confidence": 0.8807960792824074,
         "words": [
           {
             "end": 1911.1100000000001,
@@ -20727,7 +20727,7 @@
         "speaker_id": "SPEAKER_05",
         "segment_id": 55,
         "language": "en",
-        "confidence": 0.9190877278645834,
+        "avg_confidence": 0.9190877278645834,
         "words": [
           {
             "end": 1942.65,
@@ -20835,7 +20835,7 @@
         "speaker_id": "SPEAKER_06",
         "segment_id": 56,
         "language": "it",
-        "confidence": 0.9530060596955128,
+        "avg_confidence": 0.9530060596955128,
         "words": [
           {
             "end": 1954.23,
@@ -20925,7 +20925,7 @@
         "speaker_id": "SPEAKER_07",
         "segment_id": 57,
         "language": "en",
-        "confidence": 0.9426264040397876,
+        "avg_confidence": 0.9426264040397876,
         "words": [
           {
             "end": 1970.97,
@@ -20973,7 +20973,7 @@
         "speaker_id": "SPEAKER_07",
         "segment_id": 58,
         "language": "en",
-        "confidence": 0.9426264040397876,
+        "avg_confidence": 0.9426264040397876,
         "words": [
           {
             "end": 1981.93,
@@ -21609,7 +21609,7 @@
         "speaker_id": "SPEAKER_06",
         "segment_id": 59,
         "language": "en",
-        "confidence": 0.6740315755208334,
+        "avg_confidence": 0.6740315755208334,
         "words": [
           {
             "end": 2035.04,
@@ -21657,7 +21657,7 @@
         "speaker_id": "SPEAKER_06",
         "segment_id": 60,
         "language": "en",
-        "confidence": 0.2656402587890625,
+        "avg_confidence": 0.2656402587890625,
         "words": [
           {
             "end": 2040.91,
@@ -21687,7 +21687,7 @@
         "speaker_id": "SPEAKER_07",
         "segment_id": 61,
         "language": "en",
-        "confidence": 0.943568510167739,
+        "avg_confidence": 0.943568510167739,
         "words": [
           {
             "end": 2042.83,
@@ -22515,7 +22515,7 @@
         "speaker_id": "SPEAKER_07",
         "segment_id": 62,
         "language": "en",
-        "confidence": 0.8967864990234375,
+        "avg_confidence": 0.8967864990234375,
         "words": [
           {
             "end": 2119.4500000000003,
@@ -22767,7 +22767,7 @@
         "speaker_id": "SPEAKER_07",
         "segment_id": 63,
         "language": "en",
-        "confidence": 0.9375038752480159,
+        "avg_confidence": 0.9375038752480159,
         "words": [
           {
             "end": 2141.25,
@@ -23157,7 +23157,7 @@
         "speaker_id": "SPEAKER_05",
         "segment_id": 64,
         "language": "en",
-        "confidence": 0.8920070842161016,
+        "avg_confidence": 0.8920070842161016,
         "words": [
           {
             "end": 2178.92,
@@ -23523,7 +23523,7 @@
         "speaker_id": "SPEAKER_04",
         "segment_id": 65,
         "language": "en",
-        "confidence": 0.81793212890625,
+        "avg_confidence": 0.81793212890625,
         "words": [
           {
             "end": 2214.48,
@@ -23547,7 +23547,7 @@
         "speaker_id": "gap",
         "segment_id": 66,
         "language": "it",
-        "confidence": 0.848828125,
+        "avg_confidence": 0.848828125,
         "words": [
           {
             "end": 2217.3199999999997,
