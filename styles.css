@@ -44,7 +44,7 @@ body {
   width: 192px;
   height: 8px;
   border-radius: 9999px;
-  background: linear-gradient(to right, #dc3545, #fd7e14, #ffc107, #28a745, #007bff);
+  background: linear-gradient(to right, #007bff, #28a745, #ffc107, #fd7e14, #dc3545);
 }
 
 .confidence-labels {
