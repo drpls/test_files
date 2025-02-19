@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: system-ui, sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -348,7 +348,8 @@ body {
 .entity-item {
   margin-bottom: 12px;
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .entity-item:last-child {
@@ -358,15 +359,16 @@ body {
 .entity-name {
   font-weight: 500;
   color: #1e293b;
-  min-width: 120px;
 }
 
 /* Timestamps */
 .timestamps {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  flex: 1;
+  /* Let it take full width when wrapped */
+  width: 100%;
+  margin-top: 4px;
 }
 
 .timestamp {
