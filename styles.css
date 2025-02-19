@@ -339,7 +339,7 @@ body {
 
 .entity-subsection h4 {
   font-size: 1rem;
-  color: #475569;
+  color: #1e293b;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -355,8 +355,8 @@ body {
 
 .entity-name {
   display: block;
-  font-weight: 600;
-  color: #1e293b;
+  font-weight: 400;
+  color: #475569;
   margin-bottom: 8px;
 }
 
