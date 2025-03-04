@@ -496,7 +496,7 @@ button, input, textarea, select {
 }
 
 .transcript-segment:last-child {
-  margin-bottom: 36px;
+  margin-bottom: 16px;
 }
 
 .transcript-segment.editing {
