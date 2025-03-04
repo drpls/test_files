@@ -154,7 +154,7 @@ button, input, textarea, select {
   overflow-y: auto;
   overflow-x: hidden;
   padding: 2rem;
-  padding-bottom: 48px;
+  padding-bottom: 24px;
   box-sizing: border-box;
 }
 
