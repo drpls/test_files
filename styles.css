@@ -57,6 +57,9 @@ body {
   margin-bottom: 24px !important;
   padding: 0 0 16px 0 !important;
   border-bottom: 1px solid #e2e8f0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* Title styles */
@@ -75,6 +78,7 @@ button, input, textarea, select {
 
 .confidence-indicator {
   margin-left: 0 !important; /* Reset margin */
+  flex-shrink: 0 !important; /* Prevent shrinking */
 }
 
 .confidence-bar {
@@ -143,8 +147,10 @@ button, input, textarea, select {
   width: 70% !important;
   flex: 0 0 70% !important; /* Fixed width - don't grow, don't shrink */
   overflow-y: auto !important;
+  overflow-x: hidden !important; /* Prevent horizontal scrolling */
   padding: 2rem;
   padding-bottom: 48px !important; /* Extra padding at bottom */
+  box-sizing: border-box !important; /* Include padding in width calculation */
 }
 
 /* Progress bar */
@@ -476,6 +482,11 @@ button, input, textarea, select {
   border: 1px solid #e2e8f0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   line-height: 1.7;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  word-wrap: break-word !important; /* Allow long words to break */
+  overflow-wrap: break-word !important;
 }
 
 .transcript-segment:last-child {
@@ -484,6 +495,13 @@ button, input, textarea, select {
 
 .transcript-segment.editing {
   opacity: 0.7;
+}
+
+/* Ensure text container doesn't overflow */
+#text-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* Scrollbar styling */
@@ -504,4 +522,21 @@ button, input, textarea, select {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+/* Ensure content scales appropriately on smaller screens */
+@media (max-width: 1200px) {
+  .page-title-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  
+  .confidence-indicator {
+    margin-top: 16px !important;
+    align-self: flex-end !important;
+  }
+  
+  .page-title-h1 {
+    margin-bottom: 16px !important;
+  }
 }
