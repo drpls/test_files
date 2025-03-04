@@ -20,10 +20,9 @@ body {
   padding: 0 20px;
   display: flex;
   align-items: center;
-  background-color: #3b82f6; /* Changed to match button blue */
-  border-bottom: 1px solid #2563eb;
-  gap: 16px;
-  justify-content: space-between; /* Added to place back link on right */
+  background-color: #3b82f6 !important; /* Changed to match button blue */
+  border-bottom: 1px solid #2563eb !important;
+  justify-content: space-between !important; /* Added to place back link on right */
 }
 
 #backlink, #logo {
@@ -50,30 +49,24 @@ body {
   object-fit: contain;
 }
 
-/* Moved title styles to page-title-h1 class */
-#page-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #1e293b;
-  margin: 0;
-  padding: 0;
-}
-
+/* Page title container */
 .page-title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
-  padding: 0 0 16px 0;
-  border-bottom: 1px solid #e2e8f0;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 24px !important;
+  padding: 0 0 16px 0 !important;
+  border-bottom: 1px solid #e2e8f0 !important;
 }
 
+/* Title styles */
 .page-title-h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #1e293b;
-  margin: 0;
-  padding: 0;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: #1e293b !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
 }
 
 button, input, textarea, select {
@@ -81,7 +74,7 @@ button, input, textarea, select {
 }
 
 .confidence-indicator {
-  margin-left: 0; /* Reset margin to properly align in the new container */
+  margin-left: 0 !important; /* Reset margin */
 }
 
 .confidence-bar {
@@ -104,33 +97,40 @@ button, input, textarea, select {
 }
 
 .content-container {
-  height: auto !important; /* Allow container to expand beyond viewport if needed */
-  min-height: calc(100vh - 60px) !important; /* Account for header height */
+  flex: 1;
+  display: flex !important;
+  flex-direction: row !important; /* Force horizontal layout */
+  height: auto !important;
+  min-height: calc(100vh - 60px) !important;
+  overflow: hidden !important;
 }
 
 .back-link {
   display: inline-block;
   padding: 8px 16px;
-  background-color: transparent; /* Changed to transparent */
-  color: white; /* Changed to white to be readable on blue */
+  background-color: transparent !important; /* Changed to transparent */
+  color: white !important; /* Changed to white to be readable on blue */
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 0 !important;
   font-family: system-ui, -apple-system, sans-serif;
   font-weight: 500;
   transition: opacity 0.2s;
+  box-shadow: none !important;
 }
 
 .back-link:hover {
-  background-color: transparent; /* Keep transparent on hover */
+  background-color: transparent !important; /* Keep transparent on hover */
   opacity: 0.8; /* Just change opacity */
 }
 
 .column {
-  height: 100%;
+  height: auto !important;
+  min-height: 100% !important;
 }
 
 #left-column {
-  width: 30%;
+  width: 30% !important;
+  flex: 0 0 30% !important; /* Fixed width - don't grow, don't shrink */
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -140,10 +140,13 @@ button, input, textarea, select {
 }
 
 #right-column {
-  padding-bottom: 48px !important;
-  min-height: 100vh !important; /* Ensure minimum height matches viewport */
-  box-sizing: border-box !important;
+  width: 70% !important;
+  flex: 0 0 70% !important; /* Fixed width - don't grow, don't shrink */
+  overflow-y: auto !important;
+  padding: 2rem;
+  padding-bottom: 48px !important; /* Extra padding at bottom */
 }
+
 /* Progress bar */
 #progress-bar {
   width: calc(100% - 20px);
@@ -173,9 +176,9 @@ button, input, textarea, select {
 
 /* Play button container for centering */
 .play-button-container {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 20px 0;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 0 20px 0 !important;
 }
 
 /* Play/Pause button */
@@ -191,6 +194,7 @@ button, input, textarea, select {
   cursor: pointer;
   transition: all 0.2s ease;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin: 0 auto !important;
 }
 
 #playPauseButton:hover {
@@ -474,12 +478,12 @@ button, input, textarea, select {
   line-height: 1.7;
 }
 
-.transcript-segment.editing {
-  opacity: 0.7;
-}
-
 .transcript-segment:last-child {
   margin-bottom: 36px !important; /* Add extra margin to last segment */
+}
+
+.transcript-segment.editing {
+  opacity: 0.7;
 }
 
 /* Scrollbar styling */
