@@ -495,10 +495,6 @@ button, input, textarea, select {
   word-break: break-word;
 }
 
-.transcript-segment:last-child {
-  margin-bottom: 16px;
-}
-
 .transcript-segment.editing {
   opacity: 0.7;
 }
